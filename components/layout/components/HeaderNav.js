@@ -19,6 +19,9 @@ const HeaderNav = () => {
       <Link passHref href={'/solana'}><HeaderNavLinks active={Router.pathname == "/solana" ? true : false} >
         Solana
       </HeaderNavLinks></Link>
+      <Link passHref href={'/router'}><HeaderNavLinks active={Router.pathname == "/router" ? true : false} >
+        Router
+      </HeaderNavLinks></Link>
     </HeaderNavWrapper>
   )
 }

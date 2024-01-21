@@ -3,7 +3,7 @@ import axios from "axios"
 import { ethers } from 'ethers';
 // import './App.css'
 
-function App() {
+function router() {
 	
 	 const from="0x22bAA8b6cdd31a0C5D1035d6e72043f4Ce6aF054";
 	 const to="0xb452b513552aa0B57c4b1C9372eFEa78024e5936";
@@ -931,4 +931,14 @@ if(window.ethereum) {
   )
 }
 
-export default App
+// export default App
+
+// import App from "../Router-Nitro/src/App";
+
+// const router = () => {
+//     return (
+//         <App />
+//     )
+//   }
+  
+  export default router;
